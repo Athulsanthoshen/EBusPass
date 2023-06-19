@@ -19,14 +19,14 @@ app.use((req, res, next) => {
   next();
 });
 
-// Create a MySQL connection pool
+/*// Create a MySQL connection pool
 const connection = mysql.createPool({
   host: 'AthulArjun',
   user: 'username',
   password: 'password',
   database: 'users',
   connectionLimit: 5, // Adjust the connection limit as needed
-});
+}); */
 
 // Serve the login page
 app.get('/', (req, res) => {
@@ -38,7 +38,7 @@ app.post('/login', (req, res) => {
   const { username, password } = req.body;
   console.log('Received login request:', username, password);
 
-   // Query the database to check if the provided username and password match
+  /* // Query the database to check if the provided username and password match
    const query = 'SELECT * FROM users WHERE username = ? AND password = ?';
    const values = [username, password];
  
@@ -57,9 +57,9 @@ app.post('/login', (req, res) => {
        res.send('Invalid username or password');
      }
    });
- });
+ }); */
  
- /* // Check if the provided username and password match the stored data
+  // Check if the provided username and password match the stored data
   if (username === 'athul' && password === '1234') {
     console.log('Successful login for Athul');
     res.redirect('/home.html');
@@ -145,7 +145,7 @@ connection.connect((error) => {
     return;
   }
   console.log('Connected to the database!');
-}); */
+});
 
 // Start the server
 app.listen(PORT, () => {
