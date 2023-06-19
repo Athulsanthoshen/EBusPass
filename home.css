@@ -1,0 +1,159 @@
+/* Reset default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fffbfb;
+}
+
+/* Header */
+header {
+  background-color:linear-gradient(to bottom, #6a6666, #0c0c0c);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff6f6;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #fff7f7;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Reset default list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the taskbar */
+.taskbar {
+  background-color:#000000; /* Change this to your desired background color */
+  display: flex;
+  height: 30px;
+  vertical-align: auto;
+  margin-top: 0; /* Remove the space at the top */
+  font-size: 110%; /* Increase the font size by 10% */
+}
+
+/* Style the taskbar items */
+.taskbar li {
+  margin-right: 10px; /* Optional: Adjust spacing between items */
+}
+
+/* Style the taskbar links */
+.taskbar li a {
+  color: #FFF; /* Change this to your desired text color */
+  text-decoration: none;
+  padding: 10px; /* Optional: Adjust padding */
+}
+/* Contact Form */
+form {
+  margin-top: 20px;
+  
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #432a2a;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Custom background and gradient detailing */
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background: linear-gradient(to bottom, #333, #111);
+}
+
+footer {
+  background: linear-gradient(to bottom, #333, #111);
+}

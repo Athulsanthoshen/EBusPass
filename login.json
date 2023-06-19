@@ -1,0 +1,62 @@
+{
+    "database": {
+      "name": "login",
+      "tables": [
+        {
+          "name": "users",
+          "columns": [
+            {
+              "name": "id",
+              "type": "int",
+              "primary_key": true,
+              "auto_increment": true
+            },
+            {
+              "name": "username",
+              "type": "varchar(50)",
+              "unique": true
+            },
+            {
+              "name": "password",
+              "type": "varchar(255)"
+            }
+          ]
+        },
+        {
+          "name": "students",
+          "columns": [
+            {
+              "name": "id",
+              "type": "int",
+              "primary_key": true,
+              "auto_increment": true
+            },
+            {
+              "name": "name",
+              "type": "varchar(255)"
+            },
+            {
+              "name": "address",
+              "type": "varchar(255)"
+            },
+            {
+              "name": "plan_details",
+              "type": "varchar(255)"
+            },
+            {
+              "name": "validity",
+              "type": "varchar(255)"
+            },
+            {
+              "name": "starting_point",
+              "type": "varchar(255)"
+            },
+            {
+              "name": "destination_point",
+              "type": "varchar(255)"
+            }
+          ]
+        }
+      ]
+    }
+  }

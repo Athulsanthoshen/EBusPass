@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electronic Bus Pass System - Location</title>
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Electronic Bus Pass System</h1>
+  </header>
+
+  <main>
+    <section class="location-section">
+      <h2>Location</h2>
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Electronic Bus Pass System. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Initialize and display the map
+    function initMap() {
+      var location = {lat: 11.7431, lng: 75.4910};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: location,
+        zoom: 13
+      });
+
+      // Add marker to the map
+      var marker = new google.maps.Marker({
+        position: {lat: 11.7749, lng: 75.5225},
+        map: map
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBednboNBbtzC9r1CkATJtKZxX3tF4toY&callback=initMap" async defer></script>
+</body>
+</html>

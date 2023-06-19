@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electronic Bus Pass System - Add Bus Pass Plan</title>
+  <link rel="stylesheet" type="text/css" href="buspass.css">
+</head>
+<body>
+  <header>
+    <h1>Electronic Bus Pass System</h1>
+  </header>
+
+  <main>
+    <section class="add-plan-section">
+      <h2>Add Bus Pass Plan</h2>
+      <form action="/add-plan" method="post">
+        <div class="form-group">
+          <label for="duration">Duration</label>
+          <select id="duration" name="duration">
+            <option value="1">1 Month</option>
+            <option value="2">2 Months</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="price">Price</label>
+          <input type="text" id="price" name="price" placeholder="Enter the price" required>
+        </div>
+        <input type="submit" class="button" value="Add Plan">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Electronic Bus Pass System. All rights reserved.</p>
+  </footer>
+</body>
+</html>
