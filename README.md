@@ -27,3 +27,5 @@ E Bus Pass is an innovative electronic bus pass system designed to simplify and 
 - **Efficiency**: Speeds up boarding times and minimizes fare evasion.
 - **Transparency**: Real-time tracking ensures passengers are informed about bus locations and arrival times.
 - **Security**: Secure login and recharge process protect user information and balances.
+
+- Presentation : https://prezi.com/view/Y7GTjB1gdbbbG6c3onoL/
