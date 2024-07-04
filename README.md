@@ -1,6 +1,4 @@
-# EBusPass
-
-## E Bus Pass
+# E Bus Pass
 
 E Bus Pass is an innovative electronic bus pass system designed to simplify and enhance public transportation experiences. This project utilizes RFID technology and GPS tracking to provide a seamless and efficient way for passengers to manage their bus tickets and track bus locations in real-time.
 
